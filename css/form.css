@@ -1,0 +1,35 @@
+.in-touch-form {
+    width: 750px;
+}
+
+.textarea {
+    height: 150px;
+    padding-left: 15px;
+    background: #454545;
+    border: none;
+}
+
+input.form-element {
+    height: 38px;
+    margin-bottom: 20px;
+    background: #454545;
+    padding-left: 15px;
+    border: none;
+}
+
+.form-element {
+    display: table;
+    margin-left: 134px;
+    width: 580px;
+}
+
+.button {
+    display: table;
+    margin-left: 624px;
+    width: 90px;
+    height: 37px;
+    margin-top: 20px;
+    background: #2eb398;
+    border: none;
+    text-transform: uppercase;
+}
