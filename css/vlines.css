@@ -1,0 +1,43 @@
+.article::before {
+	content: "";
+	width: 1px;
+	background: #2aa78d; 
+	height: 88%;
+	float: left;
+	position: absolute;
+	bottom: 20px;
+	left: 15%;
+}
+
+.article::after {
+	content: "";
+	width: 2px;
+	background: #2aa78d; 
+	height: 88%;
+	float: right;
+	position: absolute;
+	bottom: 20px;
+	right: 15%;
+}
+
+.hex.hex-line-left::before {
+	content: "";
+	width: 2px;
+	background: #e4e9eb; 
+	height: 100%;
+	float: left;
+	position: absolute;
+	top: 1px;
+	left: -12%;
+}
+
+.hex.hex-line-right::after {
+	content: "";
+	width: 2px;
+	background: #e4e9eb; 
+	height: 100%;
+	float: right;
+	position: absolute;
+	top: 1px;
+	right: -12%;
+}
