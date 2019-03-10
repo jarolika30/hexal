@@ -2,12 +2,39 @@ p {
     margin-top: 20px;
 }
 
-.contacts p{
+.info-text p {
+    font-family: Lato-Regular, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.contacts p {
+    margin-bottom: 36px;
+    font-family: Lato-Black, sans-serif;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+.contacts li {
+    color: #8e8e8e; 
+    font-family: Lato-Black, sans-serif;
+    font-size: 14px;
+}
+
+.contacts p span {
     margin-bottom: 53px;
+    color: #c2c2c2;
 }
 
 .copyright p {
-    margin-left: 43px;
+    margin-left: 205px;
     margin-top: 0px;
-    margin-top: 10px;
+    margin-top: 14px;
+}
+
+.copyright p {
+    color: #454545;
+    font-family: MavenPro-Regular, sans-serif;
+    font-size: 11px;
 }

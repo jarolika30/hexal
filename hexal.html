@@ -14,9 +14,9 @@
             <ul class="menu">
                 <li class="menu-item point"><a href="#portfolio">Portfolio</a></li>
                 <li class="menu-item"><a href="#about">About</a></li>
-                <img src="assert/images/pointer.png" alt="" class="pointer">
-                <li class="menu-item"><a href="#blog">Blog</a></li>
-                <li class="menu-item point"><a href="#form">Get in touch</a></li>
+                <a href="#pagescount"><img src="assert/images/pointer.png" alt="" class="pointer"></a>
+                <li class="menu-item point"><a href="#blog">Blog</a></li>
+                <li class="menu-item"><a href="#form">Get in touch</a></li>
             </ul>
             <div class="triangle"></div>
         </nav>
@@ -24,7 +24,7 @@
     </header>
 
     <main>
-
+        
         <hr class="half half-left long-blue">
         <hr class="half half-right long-blue">
         <a href="" name="portfolio"></a>
@@ -83,17 +83,37 @@
                 <div class="corner-1"></div>
                 <div class="corner-2"></div>		
             </div>
+            <div class="pages">
+                <a class="page" href="" name="pagescount"></a>
+                <a class="page" href=""></a>
+                <a class="page" href=""></a>
+                <a class="page" href=""></a>
+                <a class="page" href=""></a>
+                <a class="page" href=""></a>
+            </div>
             <hr class="long long-horiz long-blue">
         </section>
+            <div class="social-icons">
+                <a href="" name="blog"></a>
+                <ul>
+                    <li><a href="https://www.facebook.com/" class="icon ico-facebook"><i class="icon-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/" class="icon dark ico-twitter"><i class="icon-twitter"></i></a></li>
+                    <li><a href="https://plus.google.com" class="icon medium ico-google"><i class="icon-gplus"></i></a></li>
+                    <li><a href="https://in.pinterest.com/" class="icon ico-pinter"><i class="icon-pinterest"></i></a></li>
+                    <li><a href="https://www.linkedin.com/" class="icon ico-linked"><i class="icon-linkedin"></i></a></li>
+                    <li><a href="https://dribbble.com/" class="icon dark ico-dribbble"><i class="icon-dribbble"></i></a></li>
+                </ul>   
+            </div>
+        
         <section class="info">
 
             <a href="" name="about"></a>
 
             <article class="article">
                 
-                <div class="hex bgr13 position">		
-                    <div class="corner-1"></div>
-                    <div class="corner-2"></div>		
+                <div class="hex1 bgr13 position">		
+                    <div class="corner-1-1"></div>
+                    <div class="corner-2-2"></div>		
                 </div>
                 <div class= "info-text">
                     <h1>Smith Anderson</h1>
@@ -106,23 +126,13 @@
                         Mauris porttitor, nibh at sagittis tristique, enim magma pretium augue,
                         eget consectetur sem dui non urna
                     </p>
-                    <div class="social-icons">
-                        <a href="" name="blog"></a>
-                        <img src="assert/images/facebook.png" alt="" class="icon"/>
-                        <img src="assert/images/twitter.png" alt="" class="icon"/>
-                        <img src="assert/images/google.png" alt="" class="icon"/>
-                        <img src="assert/images/pinter.png" alt="" class="icon"/>
-                        <img src="assert/images/linked.png" alt="" class="icon"/>
-                        <img src="assert/images/dribble.png" alt="" class="icon"/>
-                    </div>
                 </div>
             </article>
-            
+
         </section>
+        
 
     </main>
-
-    <div class="clear"></div>
 
     <footer class="footer">
 
@@ -131,12 +141,12 @@
 
         <form action="" method="post" class="in-touch-form">
             <fieldset>
-                <h2>Get in touch</h2>
+                <h2>Get in Touch</h2>
                 <h3>In order to get in touch use the contact form below</h3>
                 <input type="text" placeholder="Name (Required)" class="form-element placeholder-color" required/>
                 <input type="email" placeholder="Email (Required)" class="form-element placeholder-color" required/>
                 <input type="text" placeholder="Subject" class="form-element placeholder-color"/>
-                <textarea class="form-element textarea placeholder-color" placeholder="Write your message here...">
+                <textarea class="form-element textarea" placeholder="Write your message here...">
                 </textarea>
             </fieldset>
             <input class="button" type="submit" value="send"/>

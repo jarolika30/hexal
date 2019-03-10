@@ -1,6 +1,6 @@
 .hexagon-container {
     width: 860px;
-    height: 733px;
+    height: 720px;
     padding-top: 140px;
     margin: 0 auto;
 }   
@@ -109,7 +109,100 @@
 	bottom:0;
 }
 
-.hex.position {
-    margin-left: 50px;
-    margin-top: 87px;
+.hex1 {
+	width:180px;
+	height:104px;
+	background-color: #ccc;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;			
+	-webkit-background-size: 100 206px;							
+	-moz-background-size: 100 206px;							
+	-ms-background-size: 100 206px;							
+	-o-background-size: 100 206px;							
+	position: relative;
+	float:left;
+	margin:25px 5px;
+	text-align:center;
+	zoom:1;
+}
+
+.hex1 .corner-1-1,
+.hex1 .corner-2-2 {
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background: inherit;								
+	z-index:-2;						
+	overflow:hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;			
+	backface-visibility: hidden;			
+}
+
+.hex1 .corner-1-1 {
+	z-index:-1;
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	-ms-transform: rotate(60deg);
+	-o-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
+	
+.hex1 .corner-2-2 {
+	-webkit-transform: rotate(-60deg);
+	-moz-transform: rotate(-60deg);
+	-ms-transform: rotate(-60deg);
+	-o-transform: rotate(-60deg);
+	transform: rotate(-60deg);
+}
+
+	
+.hex1 .corner-1-1:before,
+.hex1 .corner-2-2:before {
+	width: 206px;
+	height:	206px;
+	content: '';
+	position: absolute;
+	background: inherit;
+	top:0;
+	left: 0;
+	z-index: 1;
+	background: inherit;
+	background-repeat:no-repeat;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;	
+	backface-visibility: hidden;				  
+}			
+	
+.hex1 .corner-1-1:before {
+	-webkit-transform: rotate(-60deg) translate(-104px, 0px);
+	-moz-transform: rotate(-60deg) translate(-104px, 0px);
+	-ms-transform: rotate(-60deg) translate(-104px, 0px);
+	-o-transform: rotate(-60deg) translate(-104px, 0px);
+	transform: rotate(-60deg) translate(-104px, 0px);	
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	transform-origin: 0 0;
+}			
+	
+.hex1 .corner-2-2:before {
+	-webkit-transform: rotate(60deg) translate(-53px, -13px);
+	-moz-transform: rotate(60deg) translate(-53px, -13px);
+	-ms-transform: rotate(60deg) translate(-53px, -13px);
+	-o-transform: rotate(60deg) translate(-53px, -13px);
+	transform: rotate(60deg) translate(-53px, -13px);	
+	bottom:0;
+}
+
+.hex1.position {
+    margin-left: -10px;
+    margin-top: 117px;
 }

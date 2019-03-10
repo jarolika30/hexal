@@ -1,6 +1,6 @@
 .long {
 	border:none;
-	width: 94%;
+	width: 73%;
 	height: 1px;
 }
 
@@ -11,41 +11,41 @@
 
 .long-blue {
 	color:#e4edeb; 
-    background-color: #e4e9eb;
+    background: #e4e9eb;;
 }
 
 .long-top {
 	position: absolute;
-	left: 40px;
+	left: 180px;
 	top: 20px;
 }
 
 .long-bottom {
 	position: absolute;
-	left: 40px;
+	left: 180px;
 	bottom: 60px;
 }
 
 .long-horiz {
 	position: absolute;
-	left: 40px;
-	bottom: -150px;
+	left: 180px;
+	bottom: -195px;
 }
 
 .half {
 	border:none;
-	width: 44%;
+	width: 31.5%;
 	height: 1px;
 }
 
 .half-left {
 	position: absolute;
-	left: 40px;
-	top: 80px;
+	left: 180px;
+	top: 73px;
 }
 
 .half-right {
 	position: absolute;
-	right: 40px;
-	top: 80px;
+	right: 180px;
+	top: 73px;
 }

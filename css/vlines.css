@@ -6,7 +6,7 @@
 	float: left;
 	position: absolute;
 	bottom: 20px;
-	left: 15%;
+	left: 19.5%;
 }
 
 .article::after {
@@ -17,7 +17,7 @@
 	float: right;
 	position: absolute;
 	bottom: 20px;
-	right: 15%;
+	right: 19.5%;
 }
 
 .hex.hex-line-left::before {
@@ -28,7 +28,7 @@
 	float: left;
 	position: absolute;
 	top: 1px;
-	left: -12%;
+	left: -54%;
 }
 
 .hex.hex-line-right::after {
@@ -39,5 +39,5 @@
 	float: right;
 	position: absolute;
 	top: 1px;
-	right: -12%;
+	right: -54%;
 }
