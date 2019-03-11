@@ -28,7 +28,7 @@
 	float: left;
 	position: absolute;
 	top: 1px;
-	left: -54%;
+	left: -11.5%;
 }
 
 .hex.hex-line-right::after {
@@ -39,5 +39,5 @@
 	float: right;
 	position: absolute;
 	top: 1px;
-	right: -54%;
+	right: -11.7%;
 }

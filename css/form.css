@@ -1,6 +1,6 @@
 .in-touch-form {
     width: 750px;
-    margin-left: 150px;
+    margin-left: 11.1%;
 }
 
 .textarea {
@@ -26,10 +26,10 @@ input.form-element {
 
 .button {
     display: table;
-    margin-left: 622px;
+    margin-left: 83%;
     width: 90px;
     height: 37px;
-    margin-top: 15px;
+    margin-top: 17px;
     background: #2eb398;
     border: none;
     text-transform: uppercase;
